@@ -1,0 +1,33 @@
+{
+    "author": "robisodd",
+    "dependencies": {
+        "message-queue-pebble": "^1.0.0"
+    },
+    "files": [
+        "dist.zip"
+    ],
+    "keywords": [],
+    "name": "jigsaw",
+    "pebble": {
+        "messageKeys": [
+            "JIGSAW_INIT",
+            "JIGSAW_PIECE",
+            "JIGSAW_PIECE_INDEX"
+        ],
+        "projectType": "package",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.1"
+}
