@@ -1,4 +1,5 @@
 var MessageQueue   = require('message-queue-pebble');
+//message-queue-pebble found at: https://www.npmjs.com/package/message-queue-pebble
 
 exports.debug = true;
 exports.abort = false;
@@ -47,6 +48,7 @@ module.exports.send_to_pebble = function(data, success_callback, error_callback,
 
 
 /*************************************************************************************************************************************/
+
 /*
 module.exports.send_to_pebble = function(data, success_callback, error_callback, piece_success_callback) {
   exports.bytes_sent = 0;
@@ -88,7 +90,9 @@ module.exports.send_to_pebble = function(data, success_callback, error_callback,
   })();
 };
 */
+
 /*************************************************************************************************************************************/
+
 /*
 module.exports.send_to_pebble = function(data, success_callback, error_callback, piece_success_callback) {
   function send_next_piece() {
@@ -127,7 +131,9 @@ module.exports.send_to_pebble = function(data, success_callback, error_callback,
 
 };
 */
+
 /*************************************************************************************************************************************/
+
 /*
 module.exports.send_to_pebble = function(data, success_callback, error_callback, piece_success_callback) {
   exports.bytes_sent = 0;
@@ -169,7 +175,9 @@ module.exports.send_to_pebble = function(data, success_callback, error_callback,
   })();
 };
 */
+
 /*************************************************************************************************************************************/
+
 /*
 module.exports.send_to_pebble = function(data, success_callback, error_callback, piece_success_callback) {
   var index = 0;
@@ -206,7 +214,9 @@ module.exports.send_to_pebble = function(data, success_callback, error_callback,
   })();
 };
 */
+
 /*************************************************************************************************************************************/
+
 /*
 module.exports.send_to_pebble = function(data, success_callback, error_callback, piece_success_callback) {
   var index = 0;
@@ -231,4 +241,5 @@ module.exports.send_to_pebble = function(data, success_callback, error_callback,
   })();
 };
 */
+
 /*************************************************************************************************************************************/
